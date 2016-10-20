@@ -1,0 +1,23 @@
+.container{
+	margin-top: 20px;
+}
+
+.section{
+
+}
+
+.section article ul li{
+    list-style: none;
+    float: left;
+}
+
+.section article ul li{
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 10px 0 0;
+}
+
+.hr{
+	background-color: black;
+    height: 2px;
+}

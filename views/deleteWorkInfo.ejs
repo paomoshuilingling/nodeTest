@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>删除作品</title>
+    <link rel="shortcut icon" href="/images/common/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/common/normalize.css">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/common/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/common/common.css">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/deleteWork.css">
+</head>
+
+<body>
+    <div class="container">
+    	<label class="ui-label">删除作品</label>
+    	<form class="row" method="post" action="/work/deleteWork">
+    		<div class="col-lg-4 col-md-4 col-sm-12">
+                <label class="ui-label col-lg-2 col-md-2">ID：</label>
+                <div class="col-lg-10 col-md-10">
+                    <input class="ui-input form-control" type="text" name="id">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4">
+                <button type="submit" class="btn btn-success">提交</button>
+                <button type="reset" class="btn btn-warning">重置</button>
+            </div>
+		</form>
+    </div>
+    <script type="text/javascript" src="/javascripts/common/jquery.js"></script>
+    <script type="text/javascript" src="/javascripts/common/bootstrap.js"></script>
+    <script type="text/javascript" src="/javascripts/deleteWork.js"></script>
+</body>
+
+</html>

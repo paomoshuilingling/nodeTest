@@ -1,0 +1,7 @@
+.remark {
+    border: 0px !important;
+}
+
+.remark .panel-body ul li {
+    list-style: none;
+}
